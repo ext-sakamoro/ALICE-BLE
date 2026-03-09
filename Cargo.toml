@@ -1,0 +1,10 @@
+[package]
+name = "alice-ble"
+version = "1.0.0"
+edition = "2021"
+authors = ["Moroya Sakamoto"]
+license = "MIT"
+description = "Pure Rust BLE protocol stack: GATT, advertising, pairing, ATT, L2CAP"
+
+[lib]
+crate-type = ["rlib"]
