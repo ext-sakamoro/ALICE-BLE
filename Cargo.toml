@@ -1,10 +1,13 @@
 [package]
 name = "alice-ble"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 authors = ["Moroya Sakamoto <sakamoro@alicelaw.net>"]
 license = "MIT OR Apache-2.0"
 description = "Pure Rust BLE protocol stack: GATT, advertising, pairing, ATT, L2CAP"
+repository = "https://github.com/ext-sakamoro/ALICE-BLE"
+keywords = ["ble", "bluetooth", "gatt", "l2cap", "protocol"]
+categories = ["network-programming", "embedded", "hardware-support"]
 
 [lib]
 crate-type = ["rlib"]
